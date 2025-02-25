@@ -35,6 +35,7 @@
     "@rbxts/charm": "^0.8.1",
     "@rbxts/cmdr": "^1.12.1",
     "@rbxts/destroyable": "^1.0.1",
+    "@rbxts/ez-bezier": "^1.0.0",
     "@rbxts/ez-log": "^1.0.0",
     "@rbxts/flamework-binary-serializer": "^0.6.0",
     "@rbxts/flamework-meta-utils": "^1.0.1",
