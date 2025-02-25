@@ -1,17 +1,12 @@
-import { Service, type OnInit } from "core";
-import { Workspace as World, Players } from "services";
+import { Service } from "core";
+import { Workspace as World } from "services";
 
 import { Assets } from "shared/constants";
-import { teleportPlayers } from "shared/game-utility";
 import Log from "shared/log";
 
 @Service()
-export class MapService implements OnInit {
+export class MapService {
   private loadedMap?: MapModel;
-
-  public onInit(): void {
-    this.load("Forest");
-  }
 
   public load(name: MapName): void {
     if (this.loadedMap !== undefined)
@@ -20,6 +15,7 @@ export class MapService implements OnInit {
     const map = Assets.Maps[name].Clone();
     map.Parent = World;
     map.PivotTo(CFrame.identity);
+    this.loadedMap = map;
   }
 
   public unload(): void {
