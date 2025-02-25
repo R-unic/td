@@ -15,6 +15,7 @@ export class MapService {
     const map = Assets.Maps[name].Clone();
     map.Parent = World;
     map.PivotTo(CFrame.identity);
+    map.AddTag("LoadedMap");
     this.loadedMap = map;
   }
 

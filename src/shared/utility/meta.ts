@@ -1,6 +1,14 @@
 import { Modding } from "core";
 import { t } from "t";
 
+export function getChildrenOfType<T extends Instance>(instance: Instance, guard?: t.check<T> | Modding.Generic<T, "guard">): T[] {
+  const children = instance.GetChildren();
+  if (guard === undefined)
+    return children as T[];
+
+  return children.filter(guard);
+}
+
 /**
  * Macro that generates a type guard (if one is not specified) then if the guard passes, returns the casted value
  *
