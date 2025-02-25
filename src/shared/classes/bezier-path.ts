@@ -1,3 +1,4 @@
+import Destroyable from "@rbxts/destroyable";
 import { Bezier } from "ez-bezier";
 import { getChildrenOfType } from "instance-utility";
 
@@ -8,7 +9,7 @@ type NodeVectors = [
   direction1: Vector3
 ];
 
-export class BezierPath {
+export class BezierPath extends Destroyable {
   /** Contains the total length of the path at the current segment and no further */
   private readonly segmentLengths: number[] = [];
   private cachedNodes: Part[] = [];
@@ -17,7 +18,12 @@ export class BezierPath {
   public constructor(
     public readonly map: MapModel
   ) {
+    super();
     this.calculateLengths(); // initialize segment lengths & total length
+    this.janitor.Add(() => {
+      this.segmentLengths.clear();
+      this.cachedNodes.clear();
+    });
   }
 
   /** Alias for `Path.getCFrameAtDistance(...).LookVector` */
