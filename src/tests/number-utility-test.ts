@@ -1,4 +1,4 @@
-import { Theory, InlineData, Assert } from "@rbxts/runit";
+import { Theory, InlineData, Assert } from "runit";
 
 import { doubleSidedLimit, roundDecimal, toNearestFiveOrTen, zeroIfClose } from "shared/utility/numbers";
 

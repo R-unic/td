@@ -1,4 +1,4 @@
-import { Flamework } from "@flamework/core";
+import { Flamework } from "core";
 
 import { FlameworkIgnited } from "shared/constants";
 

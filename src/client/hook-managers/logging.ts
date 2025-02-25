@@ -1,5 +1,5 @@
-import { Controller, Modding, type OnStart } from "@flamework/core";
-import { BaseComponent } from "@flamework/components";
+import { Controller, Modding, type OnStart } from "core";
+import { BaseComponent } from "components";
 
 import { LogStart } from "shared/hooks";
 import Log from "shared/log";

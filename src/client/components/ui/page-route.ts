@@ -1,6 +1,6 @@
-import type { OnStart } from "@flamework/core";
-import { Component } from "@flamework/components";
-import { getChildrenOfType } from "@rbxts/instance-utility";
+import type { OnStart } from "core";
+import { Component } from "components";
+import { getChildrenOfType } from "instance-utility";
 import { $nameof } from "rbxts-transform-debug";
 
 import { PlayerGui } from "client/utility";

@@ -1,5 +1,5 @@
-import { TestRunner } from "@rbxts/runit";
-import { ServerScriptService } from "@rbxts/services";
+import { TestRunner } from "runit";
+import { ServerScriptService } from "services";
 
 const testRunner = new TestRunner(
   ServerScriptService.WaitForChild("Tests")

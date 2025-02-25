@@ -1,6 +1,6 @@
-import { ReplicatedFirst, RunService as Runtime } from "@rbxts/services";
-import Object from "@rbxts/object-utils";
-import Signal from "@rbxts/signal";
+import { ReplicatedFirst, RunService as Runtime } from "services";
+import Object from "object-utils";
+import Signal from "signal";
 
 enum DevID {
   Runic = 44966864

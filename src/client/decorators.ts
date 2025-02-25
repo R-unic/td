@@ -1,9 +1,9 @@
-import { Modding } from "@flamework/core";
-import { InputManager, StandardAction, AxisAction } from "@rbxts/mechanism";
-import { callMethodOnDependency } from "@rbxts/flamework-meta-utils";
-import type { ClientReceiver as ClientEventReceiver } from "@flamework/networking/out/events/types";
-import type { ClientReceiver as ClientFunctionReceiver } from "@flamework/networking/out/functions/types";
-import type { Serializer } from "@rbxts/flamework-binary-serializer";
+import { Modding } from "core";
+import { InputManager, StandardAction, AxisAction } from "mechanism";
+import { callMethodOnDependency } from "flamework-meta-utils";
+import type { Serializer } from "flamework-binary-serializer";
+import type { ClientReceiver as ClientEventReceiver } from "networking/out/events/types";
+import type { ClientReceiver as ClientFunctionReceiver } from "networking/out/functions/types";
 
 import { FlameworkIgnited } from "shared/constants";
 import Log from "shared/log";

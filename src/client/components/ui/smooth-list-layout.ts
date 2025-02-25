@@ -1,8 +1,8 @@
-import type { OnStart } from "@flamework/core";
-import { Component } from "@flamework/components";
-import { TweenInfoBuilder } from "@rbxts/builders";
-import { getChildrenOfType, tween } from "@rbxts/instance-utility";
-import { endsWith } from "@rbxts/string-utils";
+import type { OnStart } from "core";
+import { Component } from "components";
+import { TweenInfoBuilder } from "builders";
+import { getChildrenOfType, tween } from "instance-utility";
+import { endsWith } from "string-utils";
 import { $nameof } from "rbxts-transform-debug";
 
 import { PlayerGui } from "client/utility";

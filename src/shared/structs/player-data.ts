@@ -1,4 +1,4 @@
-import type { DataType } from "@rbxts/flamework-binary-serializer";
+import type { DataType } from "flamework-binary-serializer";
 
 export const INITIAL_GLOBAL_DATA: GlobalData = {
 

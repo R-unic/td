@@ -1,7 +1,7 @@
-import { Controller } from "@flamework/core";
-import { Workspace as World, Stats } from "@rbxts/services";
-import { eMath } from "@rbxts/atlas";
-import Iris from "@rbxts/iris";
+import { Controller } from "core";
+import { Workspace as World, Stats } from "services";
+import { eMath } from "atlas";
+import Iris from "iris";
 
 import { roundDecimal } from "shared/utility/numbers";
 import type { ControlPanelDropdownRenderer } from "shared/structs/control-panel";

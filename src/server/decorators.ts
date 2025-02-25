@@ -1,7 +1,7 @@
-import { callMethodOnDependency } from "@rbxts/flamework-meta-utils";
-import type { Serializer } from "@rbxts/flamework-binary-serializer";
-import type { ServerReceiver as ServerEventReceiver } from "@flamework/networking/out/events/types";
-import type { ServerReceiver as ServerFunctionReceiver } from "@flamework/networking/out/functions/types";
+import { callMethodOnDependency } from "flamework-meta-utils";
+import type { Serializer } from "flamework-binary-serializer";
+import type { ServerReceiver as ServerEventReceiver } from "networking/out/events/types";
+import type { ServerReceiver as ServerFunctionReceiver } from "networking/out/functions/types";
 
 import { FlameworkIgnited } from "shared/constants";
 

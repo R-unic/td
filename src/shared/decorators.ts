@@ -1,5 +1,5 @@
-import { Modding, Reflect } from "@flamework/core";
-import { RunService as Runtime } from "@rbxts/services";
+import { Modding, Reflect } from "core";
+import { RunService as Runtime } from "services";
 
 import { roundDecimal } from "./utility/numbers";
 import Log from "./log";

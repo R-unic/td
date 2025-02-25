@@ -1,4 +1,4 @@
-import Iris from "@rbxts/iris";
+import Iris from "iris";
 
 import { isNaN } from "shared/utility/numbers";
 import type { ControlPanelDropdownRenderer } from "shared/structs/control-panel";

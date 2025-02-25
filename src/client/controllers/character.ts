@@ -1,4 +1,4 @@
-import { Controller } from "@flamework/core";
+import { Controller } from "core";
 
 import { Player } from "client/utility";
 import { promisifyEvent } from "shared/utility/promises";

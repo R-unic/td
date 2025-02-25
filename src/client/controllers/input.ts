@@ -1,5 +1,5 @@
-import { Controller } from "@flamework/core";
-import { StandardActionBuilder } from "@rbxts/mechanism";
+import { Controller } from "core";
+import { StandardActionBuilder } from "mechanism";
 
 import type { LogStart } from "shared/hooks";
 import { OnInput, OnInputRelease } from "client/decorators";

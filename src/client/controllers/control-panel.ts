@@ -1,7 +1,7 @@
-import { Controller, type OnStart } from "@flamework/core";
-import { StandardActionBuilder } from "@rbxts/mechanism";
-import { processDependency } from "@rbxts/flamework-meta-utils";
-import Iris from "@rbxts/iris";
+import { Controller, type OnStart } from "core";
+import { StandardActionBuilder } from "mechanism";
+import { processDependency } from "flamework-meta-utils";
+import Iris from "iris";
 
 import type { LogStart } from "shared/hooks";
 import { OnInput } from "client/decorators";

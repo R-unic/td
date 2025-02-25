@@ -1,4 +1,4 @@
-import { Networking } from "@flamework/networking";
+import { Networking } from "networking";
 
 type SerializedRemote = (packet: SerializedPacket) => void;
 type UnreliableSerializedRemote = Networking.Unreliable<(packet: SerializedPacket) => void>;

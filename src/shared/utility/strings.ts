@@ -1,4 +1,4 @@
-import { slice } from "@rbxts/string-utils";
+import { slice } from "string-utils";
 
 /**
  * Takes a slug-string and converts it into PascalCase

@@ -36,7 +36,6 @@
     "@rbxts/cmdr": "^1.12.1",
     "@rbxts/destroyable": "^1.0.1",
     "@rbxts/ez-log": "^1.0.0",
-    "@rbxts/firebase": "^1.0.1",
     "@rbxts/flamework-binary-serializer": "^0.6.0",
     "@rbxts/flamework-meta-utils": "^1.0.1",
     "@rbxts/id": "^1.0.0",
@@ -47,14 +46,12 @@
     "@rbxts/lazy-iterator": "^1.0.1",
     "@rbxts/mechanism": "^1.1.0",
     "@rbxts/object-utils": "^1.0.4",
-    "@rbxts/quaternion": "^1.0.0",
     "@rbxts/runit": "^1.2.3",
     "@rbxts/signal": "^1.1.1",
     "@rbxts/strict-map": "^1.0.2",
     "@rbxts/string-builder": "^1.0.0",
     "@rbxts/string-utils": "^1.0.3",
     "@rbxts/t": "^3.1.1",
-    "@rbxts/wave": "^1.0.0",
     "node": "^18.20.1"
   }
 }

@@ -1,5 +1,5 @@
-import { BaseComponent } from "@flamework/components";
-import { Janitor } from "@rbxts/janitor";
+import { BaseComponent } from "components";
+import { Janitor } from "janitor";
 
 export default class DestroyableComponent<A extends {} = {}, I extends Instance = Instance> extends BaseComponent<A, I> {
   protected readonly janitor = new Janitor;

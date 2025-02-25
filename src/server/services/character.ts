@@ -1,4 +1,4 @@
-import { Service, type OnInit } from "@flamework/core";
+import { Service, type OnInit } from "core";
 
 import { Events } from "server/network";
 

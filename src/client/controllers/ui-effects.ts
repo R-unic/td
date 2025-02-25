@@ -1,7 +1,7 @@
-import { Controller } from "@flamework/core";
-import { TweenInfoBuilder } from "@rbxts/builders";
-import { Lazy } from "@rbxts/lazy";
-import { tween } from "@rbxts/instance-utility";
+import { Controller } from "core";
+import { TweenInfoBuilder } from "builders";
+import { Lazy } from "lazy";
+import { tween } from "instance-utility";
 
 import type { LogStart } from "shared/hooks";
 import { PlayerGui } from "client/utility";

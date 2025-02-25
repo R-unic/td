@@ -1,5 +1,10 @@
 interface ReplicatedFirst extends Instance {
   Assets: Folder & {
-    GrassBlock: Part;
+    Enemies: Folder;
+    Towers: Folder;
+    Maps: Folder & {
+      Forest: MapModel;
+    };
+    UI: Folder;
   };
 }

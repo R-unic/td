@@ -1,7 +1,7 @@
-import { BaseComponent } from "@flamework/components";
-import { RunService as Runtime, Players } from "@rbxts/services";
-import { Logger, OutputStream } from "@rbxts/ez-log";
-import { getName } from "@rbxts/flamework-meta-utils";
+import { BaseComponent } from "components";
+import { RunService as Runtime, Players } from "services";
+import { Logger, OutputStream } from "ez-log";
+import { getName } from "flamework-meta-utils";
 
 function getInstancePath(instance: Instance): string {
   let path = instance.GetFullName()

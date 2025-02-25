@@ -1,5 +1,5 @@
-import { Modding } from "@flamework/core";
-import { t } from "@rbxts/t";
+import { Modding } from "core";
+import { t } from "t";
 
 /**
  * Macro that generates a type guard (if one is not specified) then if the guard passes, returns the casted value

@@ -1,5 +1,5 @@
-import { Service, Modding, type OnStart } from "@flamework/core";
-import { Players } from "@rbxts/services";
+import { Service, Modding, type OnStart } from "core";
+import { Players } from "services";
 
 import type { OnPlayerJoin, OnPlayerLeave } from "server/hooks";
 

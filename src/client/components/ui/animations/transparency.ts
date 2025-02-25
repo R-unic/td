@@ -1,7 +1,7 @@
-import { OnStart } from "@flamework/core";
-import { Component } from "@flamework/components";
-import { TweenInfoBuilder } from "@rbxts/builders";
-import { tween } from "@rbxts/instance-utility";
+import { OnStart } from "core";
+import { Component } from "components";
+import { TweenInfoBuilder } from "builders";
+import { tween } from "instance-utility";
 import { $nameof } from "rbxts-transform-debug";
 
 import ButtonTweenAnimation from "client/base-components/button-tween-animation";

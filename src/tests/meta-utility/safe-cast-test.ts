@@ -1,6 +1,6 @@
-import { Modding } from "@flamework/core";
-import { Fact, Assert } from "@rbxts/runit";
-import { t } from "@rbxts/t";
+import { Modding } from "core";
+import { Fact, Assert } from "runit";
+import { t } from "t";
 
 import { safeCast } from "shared/utility/meta";
 

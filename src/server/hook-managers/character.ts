@@ -1,4 +1,4 @@
-import { Modding, Service, type OnStart } from "@flamework/core";
+import { Modding, Service, type OnStart } from "core";
 
 import type { OnPlayerJoin } from "server/hooks";
 import type { OnCharacterAdd, OnCharacterRemove } from "shared/hooks";

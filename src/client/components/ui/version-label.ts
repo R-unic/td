@@ -1,5 +1,5 @@
-import type { OnStart } from "@flamework/core";
-import { Component, BaseComponent } from "@flamework/components";
+import type { OnStart } from "core";
+import { Component, BaseComponent } from "components";
 import { $git, $nameof } from "rbxts-transform-debug";
 
 import type { LogStart } from "shared/hooks";

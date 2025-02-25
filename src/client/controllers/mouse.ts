@@ -1,9 +1,9 @@
-import { Controller, type OnInit, type OnRender } from "@flamework/core";
-import { UserInputService as UserInput, Workspace as World } from "@rbxts/services";
-import { AxisAction, AxisActionBuilder, StandardActionBuilder } from "@rbxts/mechanism";
-import { RaycastParamsBuilder } from "@rbxts/builders";
-import Charm, { atom } from "@rbxts/charm";
-import Signal from "@rbxts/signal";
+import { Controller, type OnInit, type OnRender } from "core";
+import { UserInputService as UserInput, Workspace as World } from "services";
+import { AxisAction, AxisActionBuilder, StandardActionBuilder } from "mechanism";
+import { RaycastParamsBuilder } from "builders";
+import Charm, { atom } from "charm";
+import Signal from "signal";
 
 import { OnInput, OnAxisInput, OnInputRelease, inputManager } from "client/decorators";
 import { Player } from "client/utility";

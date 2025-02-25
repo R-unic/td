@@ -1,5 +1,5 @@
-import type { Registry } from "@rbxts/cmdr";
-import { RunService as Runtime } from "@rbxts/services"
+import type { Registry } from "cmdr";
+import { RunService as Runtime } from "services"
 
 const DEVS = [game.CreatorId];
 

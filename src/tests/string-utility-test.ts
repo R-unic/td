@@ -1,4 +1,4 @@
-import { Fact, Theory, InlineData, Assert } from "@rbxts/runit";
+import { Fact, Theory, InlineData, Assert } from "runit";
 
 import { toSpaced, capitalize, slugToPascal, stripWhitespace } from "shared/utility/strings";
 

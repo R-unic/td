@@ -1,6 +1,6 @@
-import { Dependency } from "@flamework/core";
-import { Component, type Components } from "@flamework/components";
-import { Workspace as World } from "@rbxts/services";
+import { Dependency } from "core";
+import { Component, type Components } from "components";
+import { Workspace as World } from "services";
 import { $nameof } from "rbxts-transform-debug";
 
 import { Player } from "client/utility";

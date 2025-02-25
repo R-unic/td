@@ -1,4 +1,4 @@
-import { Modding, Controller, type OnStart } from "@flamework/core";
+import { Modding, Controller, type OnStart } from "core";
 
 import type { OnCharacterAdd, OnCharacterRemove } from "shared/hooks";
 import { Player } from "client/utility";

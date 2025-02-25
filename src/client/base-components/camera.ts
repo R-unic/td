@@ -1,5 +1,5 @@
 import { BaseComponent } from "@flamework/components";
-import { Workspace as World } from "@rbxts/services";
+import { Workspace as World } from "services";
 
 const { rad } = math;
 

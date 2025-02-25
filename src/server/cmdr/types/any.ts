@@ -1,4 +1,4 @@
-import type { Registry } from "@rbxts/cmdr";
+import type { Registry } from "cmdr";
 
 import { isNaN } from "shared/utility/numbers";
 
